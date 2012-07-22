@@ -266,7 +266,7 @@ function printTehai(qt,q){
 document.write(
 	"<form name=f style=\"margin:0px;\" >"+
 		"<a href=\"?\" >新規</a> | "+
-		"手牌 <input type=text name=q size=32 ><input type=submit value=\" OK \">"+
+		"手牌 <input type=text name=q size=25 ><input type=submit value=\" OK \">"+
 		"<hr size=1 color=#CCCCCC >"+
 	"</form>"+
 	"<div id=tehai align=center ></div>"+
