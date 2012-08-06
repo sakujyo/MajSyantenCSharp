@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairiTest.dll" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-07-27" time="01:22:42">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\sbin\NUnit 2.5.10\bin\net-2.0" machine-name="DC7700" user="m" user-domain="dc7700" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Assembly" name="C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairiTest.dll" executed="True" result="Success" success="True" time="21.539" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MajLibPairiTest" executed="True" result="Success" success="True" time="21.531" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="MajLibPairiTest" executed="True" result="Success" success="True" time="21.529" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TestLocalPairi" description="LocalPairiTest" executed="True" result="Success" success="True" time="4.247" asserts="0">
+                <results>
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((2s2s4s5s6s8s8s9s, (1, 2)))" executed="True" result="Success" success="True" time="0.179" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((2s2s4s5s6s8s8s8s, (2, 1)))" executed="True" result="Success" success="True" time="0.066" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((2s3s4s5s6s8s8s8s, (2, 1)))" executed="True" result="Success" success="True" time="0.018" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((2m3m4s5s6s8s8s8s9s, (2, 1)))" executed="True" result="Success" success="True" time="0.058" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((2m3m4s5s6s8s8s8p9p, (1, 3)))" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((1m2m3m3m4m5m6m1m, (2, 1)))" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestLocalPairi((1m2m3m3m4m5m6m7m8m9m1m, (3, 1)))" executed="True" result="Success" success="True" time="0.529" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TestSyanten" description="SyantenTest" executed="True" result="Success" success="True" time="0.824" asserts="0">
+                <results>
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestSyanten((1m1m2m2m2m4m4m4m1p4p7p1s4s7s, 3))" executed="True" result="Success" success="True" time="0.050" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestSyanten((1m1m2m2m2m4m4m4m1p1p1p8s8s8s, -1))" executed="True" result="Success" success="True" time="0.099" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TestTePai" description="TePaiTest" executed="True" result="Success" success="True" time="0.025" asserts="0">
+                <results>
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestTePai((1m1m, System.Collections.Generic.List`1[MajLibPairi.Pai]))" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="MajLibPairiTest.MajLibPairiTest.TestTePai((1m1m2s, System.Collections.Generic.List`1[MajLibPairi.Pai]))" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

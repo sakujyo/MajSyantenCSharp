@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1013]C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharpTest.dll</TopNode>
+  <SelectedNode>[0-1014]MajSyantenCSharpTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1013]C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharpTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1014]MajSyantenCSharpTest" Expanded="true" />
+    <Node UniqueName="[0-1000]MajSyantenCSharpTest.MajSyantenCSharpTest" Expanded="true" />
+    <Node UniqueName="[0-1001]MajSyantenCSharpTest.MajSyantenCSharpTest.TestPai2int" Expanded="true" />
+    <Node UniqueName="[0-1005]MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten" Expanded="true" />
+    <Node UniqueName="[0-1003]MajSyantenCSharpTest.MajSyantenCSharpTest.TestTwice" Expanded="true" />
+  </Nodes>
+</VisualState>

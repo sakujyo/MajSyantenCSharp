@@ -5,8 +5,52 @@ using System.Text;
 
 namespace MajSyantenCSharp
 {
-	class Hai : EqualityComparer<Hai>, IComparable<Hai>, IEquatable<Hai>
+	public enum Pai
 	{
+		//(ID, )COLOR, NUM
+		m1 = 0x01,
+		m2 = 0x02,
+		m3 = 0x03,
+		m4 = 0x04,
+		m5 = 0x05,
+		m6 = 0x06,
+		m7 = 0x07,
+		m8 = 0x08,
+		m9 = 0x09,
+		p1 = 0x11,
+		p2 = 0x12,
+		p3 = 0x13,
+		p4 = 0x14,
+		p5 = 0x15,
+		p6 = 0x16,
+		p7 = 0x17,
+		p8 = 0x18,
+		p9 = 0x19,
+		s1 = 0x21,
+		s2 = 0x22,
+		s3 = 0x23,
+		s4 = 0x24,
+		s5 = 0x25,
+		s6 = 0x26,
+		s7 = 0x27,
+		s8 = 0x28,
+		s9 = 0x29,
+		z1 = 0x31,
+		z2 = 0x32,
+		z3 = 0x33,
+		z4 = 0x34,
+		z5 = 0x35,
+		z6 = 0x36,
+		z7 = 0x37,
+	}
+
+	[Serializable]
+	public class Hai : EqualityComparer<Hai>, IComparable<Hai>, IEquatable<Hai>
+	{
+		public static int Pai2int(Pai p)
+		{
+			return (int)p;
+		}
 		//IEqualityComparer<T>インターフェイスを実装する代わりに
 		//EqualityComparer<T>から派生させることを勧める。
 		//EqualityComparer<T>クラスは、
@@ -26,7 +70,7 @@ namespace MajSyantenCSharp
 		//{
 		//}
 
-		internal enum Color
+		public enum Color
 		{
 			m = 0,
 			p = 1,
@@ -46,6 +90,7 @@ namespace MajSyantenCSharp
 		public bool IsRed { get; private set; }
 
 		private Color color;
+		//private string p;
 		public Color COLOR
 		{
 			get
@@ -59,6 +104,46 @@ namespace MajSyantenCSharp
 			color = c;
 			this.index = index;
 			IsRed = isRed;
+		}
+
+		public Hai(string p)
+		{
+			// TODO: Complete member initialization
+			//this.p = p;
+			switch (p[1])
+			{
+				case 'm':
+					this.color = Color.m;
+					break;
+				case 'p':
+					this.color = Color.p;
+					break;
+				case 's':
+					this.color = Color.s;
+					break;
+				case 'z':
+					this.color = Color.z;
+					break;
+				default:
+					throw new Exception("Out of Range in Hai Construction.");
+					/* not reached */
+					//break;
+			}
+
+			this.index = p[0] - '0';
+			if (this.index < 1 || this.index > 9)
+			{
+				throw new Exception("Out of Range in Hai Construction.");
+			}
+			//switch (p)
+			//{
+			//  case "1m":
+			//    this.color = Color.m;
+			//    this.index = 1;
+			//    break;
+			//  default:
+			//    break;
+			//}
 		}
 
 		public override string ToString()
@@ -174,6 +259,7 @@ namespace MajSyantenCSharp
 			{
 				return true;
 			}
+			if (((object)a == null) && ((object)b == null)) return true;
 			if (((object)a == null) || ((object)b == null)) return false;
 			return a.COLOR == b.COLOR && a.Index == b.Index;
 		}
@@ -190,6 +276,11 @@ namespace MajSyantenCSharp
 		//  if (this.Index != other.Index) return false;
 		//  return true;
 		//}
+
+		public override bool Equals(object o)
+		{
+			return this == (Hai)o;
+		}
 
 		public bool Equals(Hai other)
 		{
@@ -220,15 +311,89 @@ namespace MajSyantenCSharp
 			return obj.Index % 16;
 		}
 
+		/// <summary>
+		/// other を1つ上の相方としてペンチャンかリャンメンを構成するかの判定
+		/// </summary>
+		/// <param name="other">比較する牌</param>
+		/// <returns>other とカンチャンを構成するかの真偽値</returns>
 		public bool penMate(Hai other)
-		//ペンチャンまたはリャンメンの右の相方になるかの判定
 		{
 			return COLOR == other.COLOR && Index == other.Index - 1;
 		}
 
+		/// <summary>
+		/// other を2つ上の相方としてカンチャンを構成するかの判定
+		/// </summary>
+		/// <param name="other">比較する牌</param>
+		/// <returns>other とカンチャンを構成するかの真偽値</returns>
 		public bool kanMate(Hai other)
 		{
 			return COLOR == other.COLOR && Index == other.Index - 2;
 		}
+
+		private static int recM2(int max, int p, List<Hai> hl)
+		{
+			//Console.Write("recM2({0}, {1}, ", max, p);
+			//foreach (var item in hl)
+			//{
+			//  Console.Write(item.ToString());
+			//}
+			//Console.WriteLine(")");
+			////ちなみにAggregate((s1, s2) => s1 + s2)は要素数が0か1だとまずいかも
+			if (hl.Count > max) return 0;
+			if (hl.Count == max)
+			{
+				//Console.WriteLine(hl.Select(x => x.ToString()).Aggregate((s1, s2) => s1 + s2));
+				
+				//本来は1を返す代わりにハッシュ表に面子数、(対子を除く塔子)数、対子数を登録する。
+				return 1;	//はりぼて
+			}
+			if (p == 10) return 0;
+			var nl = new List<int>();
+			nl.Add(recM2(max, p + 1, new List<Hai>(hl)));
+			for (int i = 0; i < 4; i++)
+			{
+				hl.Add(new Hai(p, Color.m));
+				nl.Add(recM2(max, p + 1, new List<Hai>(hl)));
+			}
+			return nl.Sum(); 
+		}
+
+		public static void makeHashtable(int max = 3)
+		{
+			//int i = 4;
+			//var resultT = recM2(i, 1, new List<Hai>());
+			//Console.WriteLine("{0}枚なら全部で{1}通り。", i, resultT);
+
+			for (int i = 1; i <= 14; i++)
+			{
+				//var resultT = recMH(i, 1, new List<Hai>());
+				var resultT = recM2(i, 1, new List<Hai>());
+				//Console.WriteLine("{0}{1}{2}{3}", i, j, k, l);
+				//count++;
+				Console.WriteLine("{0}枚なら全部で{1}通り。", i, resultT);
+			}
+		}
+			
+		//private static int recMH(int max, int l, List<Hai> hl)
+		//{
+		//  if (hl.Count == max)
+		//  {
+		//    Console.WriteLine(hl.Select(x => x.ToString()).Aggregate((s1, s2) => s1 + s2));
+		//    return 1;	//はりぼて
+		//  }
+		//  //if (depth == 0)
+		//  //{
+		//  //  Console.WriteLine(hl.Select(x => x.ToString()).Aggregate((s1, s2) => s1 + s2));
+		//  //  return new Tuple<int, int, int>(0, 0, 0);	//はりぼて
+		//  //}
+		//  var nl = new List<int>();
+		//  for (int i = l; i <= 9; i++)
+		//  {
+		//    hl.Add(new Hai(l, Color.m));
+		//    nl.Add(recMH(max, l, new List<Hai>(hl)));
+		//  }
+		//  return nl.Sum();
+		//}
 	}
 }

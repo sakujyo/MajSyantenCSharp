@@ -1,0 +1,5 @@
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairi\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairi\bin\Debug\MajLibPairi.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairi\bin\Debug\MajLibPairi.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairi\obj\Debug\MajLibPairi.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairi\obj\Debug\MajLibPairi.pdb

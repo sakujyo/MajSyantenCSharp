@@ -1,0 +1,11 @@
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharpTest.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharpTest.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharp.exe
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\nunit.framework.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharp.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\nunit.framework.xml
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\obj\Debug\MajSyantenCSharpTest.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\obj\Debug\MajSyantenCSharpTest.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajLibPairi.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajLibPairi.pdb

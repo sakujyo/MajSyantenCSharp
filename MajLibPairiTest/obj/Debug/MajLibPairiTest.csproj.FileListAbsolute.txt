@@ -1,0 +1,9 @@
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairiTest.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairiTest.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairi.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\nunit.framework.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairi.pdb
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\nunit.framework.xml
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\obj\Debug\MajLibPairiTest.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\obj\Debug\MajLibPairiTest.pdb

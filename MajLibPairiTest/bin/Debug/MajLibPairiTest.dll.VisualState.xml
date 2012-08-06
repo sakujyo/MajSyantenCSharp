@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1015]C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairiTest.dll</TopNode>
+  <SelectedNode>[0-1014]MajLibPairiTest.MajLibPairiTest.TestSyanten((1m1m2m2m2m4m4m4m1p4p7p1s4s7s, 3))</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1015]C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajLibPairiTest\bin\Debug\MajLibPairiTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1016]MajLibPairiTest" Expanded="true" />
+    <Node UniqueName="[0-1000]MajLibPairiTest.MajLibPairiTest" Expanded="true" />
+    <Node UniqueName="[0-1004]MajLibPairiTest.MajLibPairiTest.TestLocalPairi" Expanded="true" />
+    <Node UniqueName="[0-1013]MajLibPairiTest.MajLibPairiTest.TestSyanten" Expanded="true" />
+    <Node UniqueName="[0-1001]MajLibPairiTest.MajLibPairiTest.TestTePai" Expanded="true" />
+  </Nodes>
+</VisualState>

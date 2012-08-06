@@ -8,3 +8,5 @@ C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSha
 C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharp\obj\x86\Debug\MajSyantenCSharp.pdb
 C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharp\obj\x86\Debug\MajSyantenCSharp.Form1.resources
 C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharp\bin\Debug\MajSyantenCSharp.exe.config
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharp\bin\Debug\MajLibPairi.dll
+C:\Users\s\documents\visual studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharp\bin\Debug\MajLibPairi.pdb

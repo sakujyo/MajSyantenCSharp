@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MajSyantenCSharp
 {
-	class HaiYama
+	public class HaiYama
 	{
 		private List<Hai> y;
 		private const int SwapCount = 300;
@@ -42,6 +42,13 @@ namespace MajSyantenCSharp
 			}
 
 			// TODO: 次に字牌
+			for (int i = 1; i <= 7; i++)
+			{
+				for (int j = 0; j < 4; j++)
+				{
+					y.Add(new Hai(i, Hai.Color.z));
+				}
+			}
 		}
 
 		internal void Syapai()
@@ -67,6 +74,11 @@ namespace MajSyantenCSharp
 			}
 			t.Sort();
 			return t;
+		}
+
+		public static int Twice(int x)
+		{
+			return x * 2;
 		}
 	}
 }

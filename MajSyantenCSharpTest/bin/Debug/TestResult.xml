@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharpTest.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-07-26" time="00:19:59">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\sbin\NUnit 2.5.10\bin\net-2.0" machine-name="DC7700" user="m" user-domain="dc7700" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Assembly" name="C:\Users\s\Documents\Visual Studio 2010\Projects\MajSyantenCSharp\MajSyantenCSharpTest\bin\Debug\MajSyantenCSharpTest.dll" executed="True" result="Success" success="True" time="1.506" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MajSyantenCSharpTest" executed="True" result="Success" success="True" time="1.499" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="MajSyantenCSharpTest" executed="True" result="Success" success="True" time="1.498" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TestPai2int" description="pai2intTest" executed="True" result="Success" success="True" time="0.061" asserts="0">
+                <results>
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestPai2int(MajSyantenCSharpTest.MajSyantenCSharpTest+td00)" executed="True" result="Success" success="True" time="0.039" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TestStubCSSyanten" description="TestStubSyanten" executed="True" result="Success" success="True" time="1.414" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((1m2m3m4m5m6m7m8m9m1s3s9s1z6z, 1))" executed="True" result="Success" success="True" time="0.825" asserts="1" />
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((1m2m3m4m5m6m7m8m9m1s4s9s1z6z, 2))" executed="True" result="Success" success="True" time="0.034" asserts="1" />
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((1m2m3m4m5m6m7m8m9m1s1s1s1s6z, 0))" executed="True" result="Success" success="True" time="0.132" asserts="1" />
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((4m5m6m7m8m9m1s4s9s1z6z, 2))" executed="True" result="Success" success="True" time="0.015" asserts="1" />
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((1m4m4m4m5m5m5m6m6m6m7m7m7m7z, 0))" executed="True" result="Success" success="True" time="0.085" asserts="1" />
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((4m4m4m4m4m5m5m5m5m6m6m6m6m7m, -1))" executed="True" result="Success" success="True" time="0.221" asserts="1" />
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestStubCSSyanten((1m2m3m1z7z, 0))" executed="True" result="Success" success="True" time="0.020" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TestTwice" description="p3test" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="MajSyantenCSharpTest.MajSyantenCSharpTest.TestTwice(System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
